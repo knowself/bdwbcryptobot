@@ -1,0 +1,152 @@
+I need you to create a single comprehensive commit message which addresses each and every change. Examine each change in detail using git and describe it's essential impact. I will perform the commit. Make the commit message in standard commit message format and clearly separated from my request.
+
+clear ; git status ; git --no-pager diff --staged
+======================
+Let's start working on our project. We have a roadmap and milestones archived in roadmap.md. Our tech stack is documented there and in architecture-vision.md. Each time you get a question from me make your top 5 best suggestions for me, after careful consideration, to choose from without making any changes and we will discuss them. Understoood ? Don't make any suggestions now.
+======================
+there are errors, show me the errors and potential solutions. Make no changes now, just give me options. Number the options, I may choose one by number.
+
+fix everything you understand.
+
+Explore changes below but do not change anything without permission.
+
+Verify and Repeat your understanding.
+===========================
+Let's remember the core principles and project context. Analyze how your recent implementation decisions align with these principles SOLID Principles, Security First, Error Handling, Clean Code, Scalability and remember we must update the documentation within _instructions.md keeping track of our progress.
+===========================
+Let's remember to document xxxxxxxxxxxxxx this remember this list of ideas for future consideration and implementation and update the documentation within _instructions.md keeping track for our future roadmap.
+
+but let's then return to our previous list of upgrades.
+===========================
+can we use vue without much disruption
+
+I like the UI we have begun with, so I don't want that to change
+========================
+
+update devs.sh to the current reality that firebase credentials are being read from a json filewhere
+
+
+simple and complete instructions for installing XFCE and LightDM with xRDP on ubuntu
+
+neofetch
+
+I need to evaluate my tech stack it seems complicated to keep running in development and I fear it will be complicated to keep running in production. I need Vue server for the front end in development, do I need that in vercel production or not, then I need Django for python job management or do I, firebase is my cloud database, celery and redis are for management of long running jobs and flow of jobs in vercel production.
+
+Is there a simpler more seemless and robust architecture for runnning potential long running python jobs in the backend for AI projects on the web with python jobs running against LLM models apis
+
+
+Hybrid Serverless Architecture
+
+Frontend: Next.js
+Backend: Vercel Functions + Google Cloud Run
+Database: Convex
+
+Job Queue:
+
+Cloud Pub/Sub Pros:
+Best for LLM workloads
+Flexible scaling
+Full control over long jobs
+Cons:
+More services to manage
+Higher complexity
+
+I want to go with 3 rearrange or eliminate anthing that is not going to be used and completely
+
+update
+_ai_dev_principles.json and _windsurf_memory.json and readme.md
+then update devs.sh for the new tech stack
+
+how do I use devs.sh
+
+npm uninstall -g @codeium/windsurf
+
+                   
+=========
+1) 
+
+working on sending contact form email through firebase cloud function and it's not working let's review in detail
+
+https://us-west1-[YOUR-PROJECT-ID].cloudfunctions.net/sendContactEmail
+
+logs for sendContactEmail
+
+https://console.cloud.google.com/logs/query;query=resource.type%3D%22cloud_function%22%20resource.labels.function_name%3D%22sendContactEmail%22%20severity%3E%3DDEFAULT
+
+
+I need to put a script tag in the homepage before the body 
+Please make a number of suggestions for each question from me to choose from without making any changes
+
+<script src="https://app.simplebotinstall.com/js/chat_plugin.js" data-bot-id="35764"></script>
+
+=====================================
+
+Please run 'wsl --shutdown' in Windows PowerShell (Admin) and restart WSL
+Then start your development server with: npm run dev:ssl
+
+========================
+Terminate process on windows using port 3389
+========================
+1) netstat -ano | findstr :3389 -- find the process id
+2) tasklist | findstr <PID> -- list the process by name
+3) taskkill /F /PID <PID> -- kill process by process id
+======================
+
+are you sure, I thought we did this
+
+Workspace
+
+check your work
+
+
+================================
+Great! You now have all three users set up in your Convex database:
+
+Admin User:
+Email: joe@derivativegenius.com
+Name: Joe Terry
+Role: admin
+User ID: k97812b7d4k3dmvx943q0wzw497c7kya
+
+Representative User:
+Email: joe@joeterry.org
+Name: Harriet Representative
+Role: representative
+User ID: k9718xct8grmtaag87mej881wx7c6wmn
+
+Constituent User:
+Email: joeterry@gmail.com
+Name: Chris Constituent
+Role: constituent
+User ID: k973vvcmnnvfhxmgw259tvbre97c7dmw
+
+These users can now be used to test different role-based functionalities in your application. You can log in with each of these accounts to test the different user experiences and access controls in your application.
+================================
+
+========================
+Terminate process on windows using port 3389
+========================
+1) netstat -ano | findstr :3389 -- find the process id
+2) tasklist | findstr <PID> -- list the process by name
+3) taskkill /F /PID <PID> -- kill process by process id
+
+=====================
+Convex Commands
+=====================
+npx convex dev
+npx convex import --table tasks ./convex/sampleData.jsonl
+npx convex gen
+
+
+Example of convex workflow
+
+# Sync local code to dev and test
+npx convex dev
+# Deploy schema/functions to prod
+npx convex deploy
+# Backup prod (optional)
+npx convex export --prod --path prod-backup.zip
+# Export dev data
+npx convex export --path dev-data.zip
+# Import to prod
+npx convex import --prod --path dev-data.zip
